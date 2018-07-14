@@ -1,0 +1,42 @@
+/* ====== TABLE OF CONTENT ======= */
+/**
+ * LAYOUT
+ *
+ * BASE ON BOOTSTRAP
+ * - NORMALIZE
+ * - GRID SYSTEM
+ * - TYPOGRAPHY
+ * - CODE 
+ * - TABLE
+ * - FORM
+ * - BUTTON
+ * - IMAGE
+ * - HELPER CLASSES
+ *
+ * MODULES
+ * - HEADER
+ * - MENU NAVIGATIONS
+ * - HOMEPAGE
+ * - MAIN CONTENT
+ * - FONT AWESOME
+ * - ANIMATE CSS
+ * - FLEXSLIDER
+ * - RESPONSIVE UTILITIES
+ *
+ */
+ 
+@import "compass";
+@import "bootstrap-compass";
+@import "bootstrap-variables";
+@import "bootstrap";
+@import "partials/mixins";
+
+// FONT AWESOME
+@import "partials/header";
+@import "partials/menu";
+@import "partials/homepage";
+@import "partials/main";
+@import "partials/font-awesome";
+@import "partials/animate";
+@import "partials/flexslider";
+@import "partials/responsive";

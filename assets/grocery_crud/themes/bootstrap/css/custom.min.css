@@ -1,0 +1,45 @@
+body {
+    font-family: Raleway;
+    font-size: 14px;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+li {
+    line-height: 15px;
+}
+
+.userInfo {
+    position: fixed;
+    top: 20px;
+    right: 50px;
+}
+
+.flexigrid div.form-div input[type=text], .flexigrid div.form-div input[type=password] {
+    font-size: 15px;
+    height: 34px;
+    border: 1px solid #AAA;
+    padding: 5px 5px 5px 5px;
+}
+
+.form-display-as-box {
+    text-align: right;
+}
+
+.btn {
+    border: 1px solid;
+}
+
+.profile-info p{
+    color: #000;
+    font-size: 18px;
+}
+
+.form-input-box {
+    float: left;
+    margin-top: 7px;
+}

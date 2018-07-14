@@ -1,0 +1,5 @@
+[01-Apr-2018 06:12:41 UTC] PHP Fatal error:  Call to a member function options_validate() on a non-object in /home/satuqol1/public_html/main/sites/all/modules/views/includes/admin.inc on line 4395
+[01-Apr-2018 06:12:47 UTC] PHP Fatal error:  Call to a member function options_validate() on a non-object in /home/satuqol1/public_html/main/sites/all/modules/views/includes/admin.inc on line 4395
+[01-Apr-2018 07:44:16 UTC] PHP Fatal error:  Class name must be a valid object or a string in /home/satuqol1/public_html/main/includes/common.inc on line 8051
+[03-Apr-2018 08:10:34 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/satuqol1/public_html/main/sites/all/modules/wysiwyg/wysiwyg.admin.inc' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/satuqol1/public_html/main/includes/menu.inc on line 525
+[03-Apr-2018 08:10:34 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/satuqol1/public_html/main/sites/all/modules/wysiwyg/wysiwyg.admin.inc' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/satuqol1/public_html/main/includes/menu.inc on line 525

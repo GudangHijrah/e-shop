@@ -1,0 +1,152 @@
+/* ====== REPSONSIVE UTILITIES ======= */
+
+@media (min-width: 768px) {
+	.site-navigation {
+		@include make-md-column(6);
+	}
+	.nav-menu {
+		ul {
+			@include float(left);
+			li {
+				float: left;
+				a {
+					padding: 30px 15px;
+					border-color: #fff;
+				}
+				&.has-child {
+					&:before {
+						color:#07a0dc;
+						left: 50%;
+						top: 55%;
+					}
+				}
+				ul {
+					display: none;
+					position: absolute;
+					z-index: 999;
+					top: 100%;
+					left: 0;
+					width: 220px;
+					li {
+						&.has-child {
+							&:before {
+								content: "\f0da";
+							}
+						}
+					}
+					ul {
+						top: 0;
+						left: 100%;
+					}
+				}
+			}
+		}
+	}
+	.appoinment-header {
+		right: 25px;
+	}
+	.blue-box {
+		position: absolute;
+		left: 40px;
+		top: 0;
+		bottom: 0;
+		width: 340px;
+	}
+	.flex-caption {
+		text-align: right;
+		right: 5%;
+	}
+} 
+
+@media (min-width: 992px) { 
+	
+}
+
+@media (max-width: 768px) {
+	.col-partner {
+		width: 50%;
+	}
+	.list-galleries li:nth-child(3n) {
+		margin-right: 15px;
+	}
+	.site-footer {
+		.widget {
+			margin-bottom: 30px;
+		}
+	}
+	.testimonial-section {
+		.context {
+			margin-bottom: 60px;
+		}
+		.carousel-indicators {
+			bottom: -30px;
+		}
+	}
+	.contact-form-column {
+		.row > div {
+			margin-bottom: 15px;
+		}
+	}
+	.faq-contact-section .row {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.service-col figure {
+		right: 10px;
+	}
+	.team-member {
+		.col-md-6 {
+			margin-top: 15px;
+			margin-bottom:15px;
+		}
+	}
+	.head-office {
+		margin-top: 40px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.appoinment-header {
+		display: none;
+	}
+	.post .inner {
+		margin-left: 0;
+		margin-top: 20px;
+	}
+	.social-shares {
+		.other-share {
+			width: 100%;
+			left: 0;
+		}
+	}
+	.centered-title:before {
+		width: 91%;
+	}
+	.copy,.list-socmed {
+		text-align: center;
+	}
+	.breadcrumbs {
+		margin-left: 0;
+		li:first-child {
+			margin-left: 0;
+		}
+	}
+	.head-office .onright {
+		margin-left: 0;
+		margin-top: 30px;
+		float: left;
+	}
+	.entry-format {
+		float: none;
+	}
+	.comment-respond {
+		padding: 30px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.col-partner {
+		width: 100%;
+	}
+}
+

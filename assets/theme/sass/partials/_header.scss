@@ -1,0 +1,78 @@
+/* ====== HEADER SECTION ======= */
+.site-header {
+	background: #fff;
+	@include transition(all 0.3s ease-in-out);
+	.navbar-toggle {
+		background-color: #fff;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		margin-top: 22px;
+		margin-bottom: 22px;
+		margin-left: 12px;
+		.icon-bar {
+			background:$brand-primary;
+		}
+	}
+}
+
+.on-scroll .site-header {
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 2px -1px;
+}
+
+.appoinment-header {
+	position: absolute;
+	right: 70px;
+	top: 25px;
+}
+
+.navbar-brand {
+	height: auto;
+	border-right: 1px solid #ddd;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+.head-title {
+	background: #000 image-url('content/head-title-bg.png')no-repeat;
+	background-size: cover;
+	padding: 80px 0;
+	margin-bottom: 40px;
+	color:#fff;
+}
+
+.page-title {
+	@include float(left);
+	background: #07a0dc;
+	font-weight: 700;
+	display: inline;
+	text-align: center;	  
+	/* Needs prefixing */
+	-webkit-box-decoration-break: clone;
+	box-decoration-break: clone;
+	clear: right;
+	padding: 7px 15px;
+	margin: 0;
+}
+
+.breadcrumbs {
+	@include float(left);
+	margin-top: 12px;
+	margin-left: 15px;
+	font-family: 'Rajdhani', sans-serif;
+	ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		li {
+			float: left;
+			text-transform: uppercase;
+			margin: 0 10px;
+			position: relative;
+			&:before {
+				content: "/";
+				position: absolute;
+				right: -13px;
+			}
+		}
+	}
+}

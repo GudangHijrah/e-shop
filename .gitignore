@@ -1,0 +1,43 @@
+.DS_Store
+
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
+
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+
+composer.lock
+
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+/vendor/
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+
+# assets/uploads/berita/
+assets/uploads/buletin/
+# assets/uploads/carousel/
+assets/uploads/download_index/
+assets/uploads/files/
+# assets/uploads/gallery_foto/
+assets/uploads/link_terkait/
+#assets/uploads/pelayanan_publik/
+assets/uploads/struktur_organisasi/
+
+#assets/uploads/
+#main/

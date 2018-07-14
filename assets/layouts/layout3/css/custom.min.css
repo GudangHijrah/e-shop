@@ -1,0 +1,54 @@
+body {
+    font-family: "Gothic";
+}
+
+.page-header .page-header-top .page-logo {
+    float: none;
+    display: block;
+    width: 255px;
+    height: 75px;
+}
+.page-header .page-header-menu {
+    background: #3b3b3b;
+}
+.page-prefooter {
+    background: #3b3b3b;
+    color: #a2abb7;
+}
+.page-footer {
+    background: #434343;
+    color: #a2abb7;
+}
+
+.page-header .page-header-menu .hor-menu .navbar-nav>li.open>a, .page-header .page-header-menu .hor-menu .navbar-nav>li:hover>a, .page-header .page-header-menu .hor-menu .navbar-nav>li>a:active, .page-header .page-header-menu .hor-menu .navbar-nav>li>a:focus, .page-header .page-header-menu .hor-menu .navbar-nav>li>a:hover {
+    color: #fff;
+    background: #434343!important;
+}
+
+.page-header .page-header-menu .hor-menu .navbar-nav>li .dropdown-menu {
+    background: #434343;
+}
+
+.tabbable-line > .nav-tabs > li.active > a {
+    border: 0;
+    color: #333;
+    padding-left: 0px;
+}
+
+/*.blog-content-2 .blog-single-content {*/
+    /*padding: 0px 30px 15px;*/
+    /*background-color: #fff;*/
+/*}*/
+
+@media (min-width: 1200px)
+    .container-slick {
+        width: 1170px;
+    }
+
+    @font-face {
+        font-family: 'Gothic';
+        font-style: italic;
+        font-weight: 1000;
+        src: local('Gothic'), local('Gothic-Bold'), url(../../../../assets/fonts/gothic.woff) format('woff');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+    }
